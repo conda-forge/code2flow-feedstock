@@ -1,5 +1,5 @@
 {% set name = "code2flow" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/code2flow-{{ version }}.tar.gz
-  sha256: 4c289f0292982486e799d19e38266f95b6cbbf28f7443a4280201ec378af4b27
+  sha256: a651e839480ac744427d596cc582149bee39bf19d05b374e69c55f65f0e13406
 
 build:
   number: 0
